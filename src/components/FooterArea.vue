@@ -1,10 +1,68 @@
 <template>
-$END$
+  <!-- Start Footer Area -->
+  <footer class="footer-area footer-eleven">
+    <!-- Start Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-about">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="../assets/images/logo.svg" alt="#" class="img-fluid" />
+                  </a>
+                </div>
+                <p>
+                  Making the world a better place through constructing elegant
+                  hierarchies.
+                </p>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-link">
+                <h5>Solutions</h5>
+                <ul>
+                  <li><a href="javascript:void(0)">Link 1</a></li>
+                  <li><a href="javascript:void(0)">Link 2</a></li>
+                  <li><a href="javascript:void(0)">Link 3</a></li>
+                  <li><a href="javascript:void(0)">Link 4</a></li>
+                </ul>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget newsletter">
+                <h5>Subscribe</h5>
+                <p>Subscribe to our newsletter for the latest updates</p>
+                <form action="#" method="get" target="_blank" class="newsletter-form">
+                  <input name="EMAIL" placeholder="Email address" required="required" type="email" />
+                  <div class="button">
+                    <button class="sub-btn">
+                      <i class="lni lni-envelope"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Footer Top -->
+  </footer>
+  <!--/ End Footer Area -->
+
 </template>
 
 <script>
 export default {
-name: "FooterArea"
+  name: "FooterArea"
 }
 </script>
 
